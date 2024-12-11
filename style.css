@@ -130,7 +130,7 @@ input#new-task {
     margin: 0 10px;
 }
 
-.task>label {
+.task>.task__title {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
@@ -152,7 +152,7 @@ button.task__delete-btn img:hover {
 }
 
 /* Completed */
-.task-list#completed-tasks label {
+.task-list#completed-tasks .task__title {
     text-decoration: line-through;
     color: #888;
 }
@@ -167,10 +167,10 @@ button.task__delete-btn img:hover {
     width: 224px
 }
 
-.task-list .task.editMode label {
+.task-list .task.editMode .task__title {
     display: none;
 }
 
-.task-list .task.editMode label {
+.task-list .task.editMode .task__title {
     display: none;
 }
