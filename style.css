@@ -127,7 +127,7 @@ input#new-task {
     vertical-align: middle;
 }
 
-.task>input[type="checkbox"] {
+.task__done-checkbox {
     margin: 0 10px;
 }
 
