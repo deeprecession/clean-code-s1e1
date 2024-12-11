@@ -81,7 +81,7 @@
 }
 
 /* Heading */
-h3,
+.heading,
 .add-task__label {
     color: #333;
     font-weight: 700;
