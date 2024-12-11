@@ -32,6 +32,7 @@
     margin: 0 auto 0;
 }
 
+.add-task__input,
 .task__title,
 .task__title__completed,
 .task__input {
@@ -40,7 +41,7 @@
     flex-grow: 1;
 }
 
-.add-task-wrapper {
+.add-task {
     display: flex;
 }
 
