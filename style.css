@@ -142,13 +142,13 @@ input#new-task {
     width: 226px;
 }
 
-.task__delete-btn img {
+.task__delete-btn-icon {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
 
-.task__delete-btn img:hover {
+.task__delete-btn-icon:hover {
     transform: rotateZ(0);
 }
 
