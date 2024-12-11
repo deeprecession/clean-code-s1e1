@@ -33,6 +33,7 @@
 }
 
 .task__title,
+.task__title__completed,
 .task__input {
     width: 56%;
     display: inline-block;
@@ -152,7 +153,7 @@ task__delete-btn img:hover {
 }
 
 /* Completed */
-.task-list#completed-tasks .task__title {
+.task__title__completed {
     text-decoration: line-through;
     color: #888;
 }
