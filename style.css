@@ -56,11 +56,16 @@
 
 
 .task__input,
-button {
+.add-task__add-btn,
+.task__edit-btn,
+.task__delete-btn {
     outline: none;
 }
 
-button {
+.add-task__delete-btn,
+.add-task__add-btn,
+.task__edit-btn,
+.task__delete-btn {
     background: none;
     border: 0px;
     color: #888;
@@ -70,7 +75,8 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.add-task__delete-btn:hover,
+.task__delete-btn:hover {
     color: #3a3A3a;
 }
 
