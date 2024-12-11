@@ -139,8 +139,9 @@ input#new-task {
     width: 226px;
 }
 
-.task>input[type="text"] {
+.task__input {
     width: 226px;
+    display: none;
 }
 
 .task__delete-btn-icon {
@@ -159,20 +160,11 @@ input#new-task {
     color: #888;
 }
 
-/* Edit Task */
-.task-list .task input[type=text] {
-    display: none;
-}
-
-.task-list .task.editMode input[type=text] {
+.task.editMode .task__input {
     display: inline-block;
     width: 224px
 }
 
-.task-list .task.editMode .task__title {
-    display: none;
-}
-
-.task-list .task.editMode .task__title {
+.task.editMode .task__title {
     display: none;
 }
