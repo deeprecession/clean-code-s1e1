@@ -152,23 +152,25 @@ button.task__delete-btn img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+.task-list#completed-tasks label {
     text-decoration: line-through;
     color: #888;
 }
 
 /* Edit Task */
-ul .task input[type=text] {
+.task-list .task input[type=text] {
     display: none;
 }
 
-ul .task.editMode input[type=text] {
+.task-list .task.editMode input[type=text] {
     display: inline-block;
     width: 224px
 }
 
-ul .task.editMode label {
+.task-list .task.editMode label {
     display: none;
-}ul .task.editMode label {
+}
+
+.task-list .task.editMode label {
     display: none;
 }
