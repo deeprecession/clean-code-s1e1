@@ -34,7 +34,6 @@
 
 .add-task__input,
 .task__title,
-.task__title_completed,
 .task__input {
     width: 56%;
     display: inline-block;
@@ -163,7 +162,7 @@
 }
 
 /* Completed */
-.task__title_completed {
+.task_completed .task__title {
     text-decoration: line-through;
     color: #888;
 }
