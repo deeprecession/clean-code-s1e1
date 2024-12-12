@@ -54,7 +54,6 @@
     list-style: none;
 }
 
-
 .task__input,
 .add-task__input,
 .add-task__add-btn,
@@ -169,11 +168,11 @@
     color: #888;
 }
 
-.task.editMode .task__input {
+.task__edited .task__input {
     display: inline-block;
     width: 224px;
 }
 
-.task.editMode .task__title {
+.task__edited .task__title {
     display: none;
 }
