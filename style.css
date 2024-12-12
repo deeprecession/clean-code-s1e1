@@ -92,7 +92,8 @@
     text-transform: uppercase;
 }
 
-input[type="text"] {
+.task__input,
+.add-task__input {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
