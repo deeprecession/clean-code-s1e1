@@ -14,53 +14,56 @@
   </div>
 
   <div class="main">
-    <div id="topSectionForAddingElementToList">
+    <section id="topSectionForAddingElementToList">
       <label class="add-task__label" for="new-task">Add Item</label>
 
       <div class="add-task">
         <input id="new-task" class="add-task__input" type="text">
         <button class="add-task__add-btn">Add</button>
       </div>
-    </div>
+    </section>
 
-    <h3 class="heading">Todo</h3>
+    <section>
+      <h3 class="heading">Todo</h3>
 
-    <ul class="task-list" id="incompleteTasks">
+      <ul class="task-list" id="incompleteTasks">
+        <li class="task">
+          <input class="task__done-checkbox" type="checkbox">
+          <label class="task__title">Pay Bills</label>
+          <input type="text" class="task__input">
+          <button class="task__edit-btn">Edit</button>
+          <button class="task__delete-btn">
+            <img class="task__delete-btn-icon" src="./remove.svg" alt="delete button">
+          </button>
+        </li>
 
-      <li class="task">
-        <input class="task__done-checkbox" type="checkbox">
-        <label class="task__title">Pay Bills</label>
-        <input type="text" class="task__input">
-        <button class="task__edit-btn">Edit</button>
-        <button class="task__delete-btn">
-          <img class="task__delete-btn-icon" src="./remove.svg" alt="delete button">
-        </button>
-      </li>
+        <li class="task" class="editMode">
+          <input class="task__done-checkbox" type="checkbox">
+          <label class="task__title">Go Shopping</label>
+          <input type="text" value="Go Shopping" class="task__input">
+          <button class="task__edit-btn">Save</button>
+          <button class="task__delete-btn">
+            <img class="task__delete-btn-icon" src="./remove.svg" alt="delete button">
+          </button>
+        </li>
+      </ul>
+    </section>
 
-      <li class="task" class="editMode">
-        <input class="task__done-checkbox" type="checkbox">
-        <label class="task__title">Go Shopping</label>
-        <input type="text" value="Go Shopping" class="task__input">
-        <button class="task__edit-btn">Save</button>
-        <button class="task__delete-btn">
-          <img class="task__delete-btn-icon" src="./remove.svg" alt="delete button">
-        </button>
-      </li>
 
-    </ul>
-
-    <h3 class="heading">Completed</h3>
-    <ul class="task-list" id="completed-tasks">
-      <li class="task">
-        <input class="task__done-checkbox" type="checkbox" checked>
-        <label class="task__title task__title__completed">See the Doctor</label>
-        <input type="text" class="task__input">
-        <button class="task__edit-btn">Edit</button>
-        <button class="task__delete-btn">
-          <img class="task__delete-btn-icon" src="./remove.svg" alt="delete button">
-        </button>
-      </li>
-    </ul>
+    <section>
+      <h3 class="heading">Completed</h3>
+      <ul class="task-list" id="completed-tasks">
+        <li class="task">
+          <input class="task__done-checkbox" type="checkbox" checked>
+          <label class="task__title task__title__completed">See the Doctor</label>
+          <input type="text" class="task__input">
+          <button class="task__edit-btn">Edit</button>
+          <button class="task__delete-btn">
+            <img class="task__delete-btn-icon" src="./remove.svg" alt="delete button">
+          </button>
+        </li>
+      </ul>
+    </section>
   </div>
 
   <script src="app.js"></script>
